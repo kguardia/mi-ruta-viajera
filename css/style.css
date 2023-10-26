@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+* {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: #91972a;
+}
+
+.menuPrincipal {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    grid-template-rows: auto auto;
+    grid-row-gap: 0px;
+    background-color: #143109;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    justify-content: center;
+    align-content: center;
+    display: none;
+}
+
+.redesSocialesInicio {
+    justify-content: center;
+    align-content: center;
+    display: none;
+}
+
+.navbar a {
+    color: #d0d6b3;
+}
+
+.redesSocialesInicio i {
+    color: #d0d6b3;
+}
+
+.logo {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.logo img {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 120px;
+}
+
+.logo h6 {
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+.dropdown {
+    justify-content: start;
+    align-content: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    grid-template-rows: auto auto;
+    grid-row-gap: 0px;
+    background-color: #143109;
+}
+
+.dropdown .btn:focus {
+    border: none;
+}
+
+.dropdown .btn:active {
+    border: none;
+}
+
+.dropdown .btn:hover {
+    border: none;
+}
+
+.dropdown i {
+    color: #FFFFFF;
+}
+
+.dropdown-menu {
+    background-color: #d0d6b3;
+    font-size: 14px;
+}
+
+#bienvenida img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+#bienvenida h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+#bienvenida p {
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+.redesSociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redesSociales a i {
+    color: #143109;
+    font-size: 16px;
+}
+
+.cardPremisas {
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.cardPremisas i {
+    background-color: #d0d6b3;
+    border-radius: 8%;
+    width: 70px;
+    color: #143109;
+    font-size: 40px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+}
+
+.cardPremisas h5 {
+    font-weight: 900;
+    text-align: center;
+}
+
+.cardPremisas p {
+    font-weight: normal;
+    text-align: center;
+}
+
+.cardBlog {
+    background-color: #d0d6b3;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+    width: auto;
+	height: 300px;
+	object-fit: cover;
+}
+
+.btn-blog {
+    background-color: #143109;
+    color: #d0d6b3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    display: block;
+}
+
+.paginador .page-link{
+    background-color: #143109;
+    border: #143109;
+    color: #d0d6b3;
+    font-size: 12px;
+}
+
+.active>.page-link {
+    background-color:#d0d6b3;
+    color: #143109;
+    font-size: 12px;
+}
+
+#carouselExampleCaptions img {
+    filter: brightness(20%);
+    width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+#carrusel {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#carouselExampleCaptions p {
+    font-size: 12px;
+}
+
+#suscripcion {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.formularioSuscripcion {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.formularioSuscripcion .form-floating {
+    font-size: 12px;
+}
+
+.formularioSuscripcion input {
+    background-color: #d0d6b3;
+    border: #d0d6b3;
+}
+
+.formularioSuscripcion label {
+    font-size: 12px;
+}
+
+.btn-footer {
+    background-color: #d0d6b3;
+    color: #143109;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0.25rem;
+    display: block;
+}
+
+.copyright p {
+    font-size: 10px;
+}
+
+#blogPrincipal img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+#blogPrincipal h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contacto h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contacto {
+    text-align: start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#contacto {
+    font-size: 14px;
+}
+
+.form-check-label {
+    font-size: 12px;
+}
+
+.form-check p {
+    font-size: 8px;
+}
+
+
+#sobreMi img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+#sobreMi h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sobreMi p {
+    color: #d0d6b3;
+}
+
+#destinos img {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+#destinos h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+#destinos p {
+    color: #d0d6b3;
+}
+
+.btn-destinos {
+    background-color: #d0d6b3;
+    color: #143109;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    border-radius: 0px;
+}
+    
+/* Estilo para los paneles */
+.panel {
+    padding: 0 18px;
+    background-color: #d0d6b3;
+    display: none;
+    overflow: hidden;
+}
+    
+/* Estilo para el botón activo */
+.btn-destinos:hover {
+    background-color: #d0d6b3;
+    }
+    
+/* Estilo para los botones internos */
+.sub-btn-destinos {
+    background-color: #d0d6b3;
+    color: #91972a;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+    
+.sub-btn-destinos {
+    font-size: 14px;
+}
+    
+.sub-btn-destinos:hover {
+    background-color: #d0d6b3;
+}
+    
+.sub-btn-destinos:focus {
+    color: #143109;
+    font-weight: 500;
+    background: #d0d6b3;
+    border-left: none;
+}
+
+.blogPlanifico img {
+    width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+#planificar h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+#planificar p {
+    color: #FFFFFF;
+}
+
+#planificar h3 {
+    color: #FFFFFF;
+}
+
+#lex {
+    font-size: 12px;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 427px) {
+    h6 {
+        font-size: 18px;
+    }
+    
+    h5 {
+        font-size: 22px;
+    }
+    
+    h4 {
+        font-size: 26px;
+    }
+    
+    h3 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 34px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    p {
+        padding: 0;
+        margin: 0;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 16px;
+    }
+    .inicio {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navbar {
+        justify-content: center;
+        align-content: center;
+        display: grid;
+    }
+    .redesSocialesInicio {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .dropdown {
+        justify-content: start;
+        align-content: center;
+        display: none;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: auto auto;
+        grid-column-gap: 0px;
+        grid-template-rows: auto auto;
+        grid-row-gap: 0px;
+        background-color: #143109;
+    }
+    #bienvenida p {
+        font-size: 14px;
+        text-align: center;
+    }
+    #blogs .container {
+        display: grid;
+        justify-content: space-around;
+    }
+    .cardBlog {
+        height: 676px;
+    }
+    #carouselExampleCaptions img {
+        filter: brightness(20%);
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+    #carouselExampleCaptions h5 {
+        font-size: 45px;
+    }
+    #carouselExampleCaptions p {
+        font-size: 32px;
+    }
+    .blogPlanifico img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    #sobreMi img {
+        width: 25%;
+        margin-right: 10px;
+        float: left;
+    }
+}
+    
